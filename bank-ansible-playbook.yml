@@ -1,6 +1,6 @@
 ---
 - name: Copy and deploy Kubernetes application
-  hosts: testnodes
+  hosts: samplenode1
   become: true
   vars:
     local_deployment_file: /etc/ansible/k8banking.yml
