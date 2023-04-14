@@ -1,7 +1,7 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: santosh-deploy
+  name: santoshk8s-deploy
   labels:
     app: santosh-banking-app
 spec:
